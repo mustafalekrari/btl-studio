@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Données et sorties (trop lourdes / privées)
+data/scenes/*
+data/furniture/*
+!data/scenes/.gitkeep
+!data/furniture/.gitkeep
+outputs/
+checkpoints/
+*.safetensors
+*.ckpt
+*.bin
+
+# Caches
+.cache/
+hf_cache/
+wandb/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

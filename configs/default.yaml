@@ -1,0 +1,29 @@
+# Identifiants Hugging Face des modèles utilisés par le pipeline
+models:
+  depth: depth-anything/Depth-Anything-V2-Small-hf
+  scene_segmentation: shi-labs/oneformer_ade20k_swin_tiny
+  cutout: ZhengPeng7/BiRefNet
+  grounding: IDEA-Research/grounding-dino-tiny
+  inpainting: diffusers/stable-diffusion-xl-1.0-inpainting-0.1
+  controlnet_depth: diffusers/controlnet-depth-sdxl-1.0
+  ip_adapter:
+    repo: h94/IP-Adapter
+    subfolder: sdxl_models
+    weight: ip-adapter_sdxl.bin
+  vlm: Qwen/Qwen2.5-VL-7B-Instruct
+  llm: Qwen/Qwen2.5-7B-Instruct
+
+generation:
+  resolution: 1024
+  num_inference_steps: 30
+  guidance_scale: 7.0
+  strength: 0.99
+  controlnet_conditioning_scale: 0.6
+  ip_adapter_scale: 0.7
+  num_variants: 3
+  seed: 42
+
+paths:
+  scenes: data/scenes
+  furniture: data/furniture
+  outputs: outputs

@@ -1,0 +1,40 @@
+# PyTorch : installer d'abord la version adaptée à votre GPU
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# (Colab / Kaggle : déjà installé)
+
+# Génération d'images
+diffusers>=0.31
+transformers>=4.49
+accelerate>=1.0
+safetensors
+huggingface_hub
+peft
+
+# Vision
+opencv-python-headless
+pillow
+numpy
+scipy
+timm
+einops
+kornia
+
+# Texte / VLM
+langchain>=0.3
+langchain-community
+qwen-vl-utils
+
+# Évaluation
+torchmetrics[multimodal]
+lpips
+
+# API + démo
+fastapi
+uvicorn[standard]
+python-multipart
+gradio>=4
+
+# Utilitaires
+pyyaml
+tqdm
+pytest

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "btl-studio"
+version = "0.1.0"
+description = "IA générative multimodale pour l'intégration réaliste de mobilier et la génération de contenu"
+authors = [{ name = "Mustapha Lekrari" }]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
