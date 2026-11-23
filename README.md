@@ -5,6 +5,8 @@
 Projet de fin de module — *IA générative textuelle et visuelle* · EMSI Casablanca, 5e année IA & Data
 Auteur : Mustapha Lekrari · Cas d'application : Home BTL (mobilier)
 
+[![Ouvrir la démo dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mustafalekrari/btl-studio/blob/main/notebooks/01_demo.ipynb)
+
 📄 [Cahier des charges (PDF)](docs/cahier_des_charges.pdf) · 📓 [Journal de bord](docs/journal.md)
 
 ---
@@ -37,7 +39,7 @@ flowchart TD
 
 | Jours | Tâche | Statut |
 | --- | --- | --- |
-| J1–J2 | État de l'art, environnement GPU, jeu de test | 🟡 En cours |
+| J1–J2 | État de l'art, environnement GPU, jeu de test, démo Gradio (profondeur + détourage + baseline) | 🟡 En cours |
 | J3–J4 | Détourage, profondeur, segmentation de scène (F2, F3) | ⚪ À faire |
 | J5–J7 | Placement + inpainting SDXL / ControlNet / IP-Adapter (F4, F6) — **jalon mi-parcours** | ⚪ À faire |
 | J8–J9 | Harmonisation IC-Light, ombres, placement par texte (F5, F7) | ⚪ À faire |
